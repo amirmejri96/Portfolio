@@ -5,7 +5,7 @@ const Header = () => {
   const [showModal, setShowModal] = useState(false)
   return (
     <header className='flex'>
-      <button className='menu' onClick={()=>setShowModal(true)} >Show modal</button>
+      <button className='menu icon-menu' onClick={()=>setShowModal(true)} />
       
       <div />
 
@@ -18,7 +18,9 @@ const Header = () => {
         </ul>
       </nav>
 
-      <button className='icon-moon-o'/>
+      <button>
+        <span className='icon-moon-o'></span>
+      </button>
 
 
       { showModal && (

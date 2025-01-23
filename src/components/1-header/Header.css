@@ -1,3 +1,19 @@
+/* ===========================
+Table of contents 
+==============================
+
+1- Header Design
+2- Icons buttons
+3- Pop up, modal
+4- Responsive Design
+
+*/
+
+
+
+
+
+/* Header Design */
 header .menu {
     display: none;
 }
@@ -14,7 +30,6 @@ header.flex nav {
     border-radius: 55px;
     box-shadow: 1px 1px 40px #2323242a;
 }
-
 
 header ul {
     gap: 30px;
@@ -36,6 +51,33 @@ header ul li a:hover {
 header button {
     font-size: 1.2rem;
 }
+
+
+/* Icons buttons */
+header .icon-menu, header .icon-moon-o {
+    border: 1px solid var(--border);
+    padding: 10px;
+    border-radius: 50%;
+    background-color: var(--bgHeader);
+    transition: 0.2s;
+}
+
+header .icon-menu:hover, header .icon-moon-o:hover{
+    border: 1px solid orange;
+}
+
+header .icon-close {
+    font-size: 1.2rem;
+    color: var(--subtitle);
+    transition: 0.3s;
+}
+
+header .icon-close:hover {
+    font-size: 1.4rem;
+    color: crimson;
+    rotate: 180deg;
+}
+
 
 /* modal, pop up */
 header .fixed {
@@ -84,11 +126,7 @@ header .fixed .modal li:first-child {
 }
 
 
-
-
-
-
-
+/* Responsive Design */
 @media (max-width: 700px) {
     header.flex nav {
         display: none;
