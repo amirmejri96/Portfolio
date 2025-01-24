@@ -1,0 +1,71 @@
+/* ===========================
+Table of contents 
+==============================
+
+1- Left Section
+2- Right Section
+
+*/
+
+
+
+section.hero {
+    margin-top: 4rem;
+}
+
+
+/* 1-Left Section */
+section.hero .left-section {
+    flex-grow: 1;
+}
+
+section.hero .parent-avatar {
+    align-items: end;
+    gap: 0.6rem;
+}
+
+section.hero .avatar {
+    width: 95px;
+    border: 1px solid darkorange;
+    border-radius: 50%;
+    padding: 3px;
+    box-shadow: 2px 2px 40px rgba(255, 255, 255, 0) inset;
+}
+
+section.hero .icon-verified {
+    color: var(--blue);
+    font-size: 1.1rem;
+    margin-bottom: 0.3rem;
+}
+
+section.hero h1.title {
+    color: var(--title);
+    font-size: 2.85rem;
+    line-height: 3.3rem;
+    margin: 24px 0;
+}
+
+section.hero p.subtitle {
+    color: var(--subtitle);
+    margin-bottom: 30px;
+    font-size: 0.9rem;
+    line-height: 1.6rem;
+}
+
+section.hero .all-icons {
+    gap: 20px;
+    font-size: 1.5rem;
+    color: var(--subtitle);
+}
+
+section.hero .all-icons .icon:hover {
+    color: var(--iconHover);
+    font-size: 1.6rem;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+
+
+/* 2-Right Section */
+

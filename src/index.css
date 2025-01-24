@@ -5,6 +5,16 @@ html {
   letter-spacing: 1px;
 }
 
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -20,6 +30,8 @@ html {
 
   --bgHeader: rgb(39, 39, 42);
   --blue: rgb(93, 188, 252);
+
+  --iconHover: #d4d4d8;
 }
 
 body {
@@ -35,10 +47,8 @@ body {
   margin-left: auto;
   margin-right: auto;
   background-color: var(--secondary);
+  padding: 0 4.5rem;
 }
-
-
-
 
 
 .divider {
@@ -79,4 +89,19 @@ button:hover {
 
 button:active {
   scale: 0.7;
+}
+
+
+@media (max-width:1000px) {
+  .container {
+    width: 90%;
+    padding: 0 1.7rem;
+  }
+}
+
+@media (max-width:600px) {
+  .container {
+    width: 98%;
+    padding: 0 1.7rem;
+  }
 }

@@ -85,6 +85,7 @@ header .fixed {
     inset: 0; /* top left right bottom = 0 */
     z-index: 6;
     background-color: rgba(40, 40, 48, 0.91);
+    backdrop-filter: blur(4px);
 }
 
 @keyframes mymove {
@@ -95,7 +96,7 @@ header .fixed {
 
 header .fixed .modal {
     animation: mymove 0.77s 1;
-    width: 85%;
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 2rem;
@@ -123,6 +124,7 @@ header .fixed .modal li:first-child {
     border: none;
     padding-bottom: 0;
     padding-top: 0.2rem;
+    margin-bottom: -1rem;
 }
 
 
