@@ -3,11 +3,10 @@
 html {
   font-family: "Roboto", serif;
   letter-spacing: 1px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
-html {
-  box-sizing: border-box;
-}
 
 *,
 *:before,
@@ -91,6 +90,21 @@ button:active {
   scale: 0.7;
 }
 
+.scroll-up{
+  background-color: rgba(25, 118, 210, 0.85);
+  width: 2.6rem;
+  height: 2.6rem;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 2rem;
+  right: 3%;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.scroll-up:hover {
+  background-color: rgb(25, 118, 220);
+}
 
 @media (max-width:1000px) {
   .container {
@@ -103,5 +117,11 @@ button:active {
   .container {
     width: 98%;
     padding: 0 1.7rem;
+  }
+
+  .scroll-up{
+    opacity: 0.6;
+    width: 2.2rem;
+    height: 2.2rem;
   }
 }
