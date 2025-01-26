@@ -1,11 +1,23 @@
+/* ===========================
+Table of contents 
+==============================
 
+1- Title Design
+2- Global Main Design
+3- Infobox Left Design
+4- Infobox Right Design
+5- Responsive Design
 
+*/
 
+/* 1- Title Design */
 .title{
     color: var(--title);
     margin-bottom: 20px;
 }
 
+
+/* 2- Global Main Design */
 main {
     justify-content: space-evenly;
     align-items: center;
@@ -31,8 +43,7 @@ main .info-box-left p {
 }
 
 
-
-
+/* 4- Infobox Right Design */
 main .info-box-right button.download {
     border: 1px solid var(--border);
     padding: 20px;
@@ -47,6 +58,8 @@ main .info-box-right button.download:hover {
     background-color: var(--blue);
 }
 
+
+/* 5- Responsive Design */
 @media (max-width:700px) {
     main {
         flex-direction: column;
