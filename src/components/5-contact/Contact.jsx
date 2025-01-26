@@ -7,7 +7,7 @@ const Contact = () => {
     return <p>Your message has been sent successfully 👌</p>;
   }
   return (
-    <section className='contact-us'>
+    <section id='Contact' className='contact-us'>
       <div className="flex">
         <h1 className='title'>
           <span className='icon-envelope' /> Contact Us

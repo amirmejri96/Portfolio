@@ -2,7 +2,7 @@ import './Home.css'
 
 const Home = () => {
   return (
-    <section className='hero flex'>
+    <section id='Home' className='hero flex'>
       <div className="left-section">
         <div className="parent-avatar flex">
           <img className='avatar' src="/me-circle.png" alt="image1" />
