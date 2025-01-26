@@ -1,6 +1,6 @@
-import './Hero.css'
+import './Home.css'
 
-const Hero = () => {
+const Home = () => {
   return (
     <section className='hero flex'>
       <div className="left-section">
@@ -30,4 +30,4 @@ const Hero = () => {
   )
 }
 
-export default Hero
+export default Home
