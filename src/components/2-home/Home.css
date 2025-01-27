@@ -54,7 +54,10 @@ section.hero p.subtitle {
 
 section.hero .all-icons {
     gap: 20px;
-    font-size: 1.5rem;
+}
+
+section.hero .all-icons a {
+    font-size: 1.3rem;
     color: var(--subtitle);
 }
 
