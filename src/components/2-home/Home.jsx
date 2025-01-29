@@ -22,10 +22,6 @@ const Home = () => {
         </div>
 
       </div>
-
-
-      <div className="right-section">animation</div>
-
     </section>
   )
 }

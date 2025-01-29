@@ -45,9 +45,9 @@ main .info-box-left p {
 
 /* 4- Infobox Right Design */
 main .info-box-right button.download {
-    border: 1px solid var(--border);
+    background: rgba(36, 37, 46, 1);
+    border: 1px solid rgb(63, 63, 70);
     padding: 20px;
-    background-color: var(--bgHeader);
     border-radius: 10px;
     color: var(--title);
     font-size: 1rem;

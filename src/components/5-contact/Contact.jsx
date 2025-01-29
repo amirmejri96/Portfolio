@@ -1,5 +1,7 @@
 import './Contact.css'
 import { useForm, ValidationError } from '@formspree/react';
+import Lottie from "lottie-react";
+import contactAnimation from '../../animations/contact.json'
 
 const Contact = () => {
   const [state, handleSubmit] = useForm("mzzddblz");
@@ -15,7 +17,7 @@ const Contact = () => {
       </div>
       <p className='sub-title'>Contact us for more information and get notified when i publish something new.</p>
 
-      <div className="flex">
+      <div style={{justifyContent:'space-between'}} className="flex">
         <form onSubmit={handleSubmit}>
           <div className='flex'>
             <label htmlFor="email">Email Adress:</label>
@@ -40,7 +42,9 @@ const Contact = () => {
 
           <button type="submit" disabled={state.submitting} className='submit'>Submit</button>
         </form>
-        <div className="animation">animation</div>
+        <div className="animation">
+          <Lottie className='contact-animation' style={{height:350}} animationData={contactAnimation}/>
+        </div>
       </div>
 
 

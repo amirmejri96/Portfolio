@@ -1,0 +1,75 @@
+/* ===========================
+Table of contents 
+==============================
+
+1- Title Design
+2- Card Design
+
+*/
+
+
+
+
+
+/* 1- Title Design */
+.projects h1 {
+    font-size: 2.1rem;
+    margin-bottom: 3rem;
+    color: var(--title);
+}
+
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+
+/* 2- Card Design */
+.project-card {
+    background: var(--bgHeader);
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.project-card h3 {
+    margin: 15px 0 10px;
+    color: var(--title);
+}
+
+.project-card p {
+    font-size: 0.9em;
+    color: var(--subtitle);
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.project-card a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    text-decoration: none;
+    color: var(--title);
+    background: rgba(36, 37, 46, 1);
+    border: 1px solid rgb(63, 63, 70);
+    border-radius: 20px;
+    transition: background 0.3s;
+}
+
+.project-card a:hover {
+    background: var(--blue);
+}
