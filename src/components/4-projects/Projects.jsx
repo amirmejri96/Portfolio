@@ -9,7 +9,7 @@ const Projects = () => {
           <img src="../../../shoesvap.png" alt="Projet 1"/>
             <h3>ShoesVap</h3>
             <p>A website for a professional steam cleaning service.</p>
-            <a href="https://shoesvap.netlify.app">Visit the website</a>
+            <a href="https://shoesvap.tn">Visit the website</a>
         </div>
 
         <div className="project-card">
