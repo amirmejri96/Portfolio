@@ -20,7 +20,7 @@ const Projects = () => {
         </div>
 
         <div className="project-card">
-          <img src="projet3.jpg" alt="Projet 3"/>
+          <img style={{width:'80%'}} src="../../../maladie-coeliaque.png" alt="Projet 3"/>
             <h3>La maladie coelique</h3>
             <p>A website to describe the Celiac disease.</p>
             <a href="#">Visit the website</a>
