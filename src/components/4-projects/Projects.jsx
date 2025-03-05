@@ -30,7 +30,7 @@ const Projects = () => {
           <img style={{width:'80%'}} src="../../../cj studio.png" alt="Projet 3"/>
             <h3>CJ Studio</h3>
             <p>A website of an agency of photography and videography.</p>
-            <a href="#">Visit the website</a>
+            <a href="https://cj-studio.netlify.app/">Visit the website</a>
         </div>
       </div>
     </section>
